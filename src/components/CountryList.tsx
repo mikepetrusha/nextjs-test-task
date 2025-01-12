@@ -17,7 +17,7 @@ export const CountryList = ({ countries }: { countries: Country[] }) => {
   };
 
   return (
-    <ul className="flex flex-col gap-2">
+    <ul className="flex flex-col gap-2 mx-10">
       <AnimatePresence initial={false}>
         {currentCountries.map((country) => (
           <motion.li
